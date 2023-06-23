@@ -4,29 +4,14 @@
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
-    border:1px;
+    border:1px solid;
 	border-color:silver;
 	border-spacing:0;
-}
-/* top-left border-radius */
-table tr:first-child th:first-child {
-  border-top-left-radius: 10px;
-}
-
-/* top-right border-radius */
-table tr:first-child th:last-child {
-  border-top-right-radius: 10px;
+	overflow:hidden;
+	 border-radius: 10px;
+	border-color:silver;
 }
 
-/* bottom-left border-radius */
-table tr:last-child td:first-child {
-  border-bottom-left-radius: 10px;
-}
-
-/* bottom-right border-radius */
-table tr:last-child td:last-child {
-  border-bottom-right-radius: 10px;
-}
 .styled-table thead tr {
     background-color: #154c79;
     color: #ffffff;
